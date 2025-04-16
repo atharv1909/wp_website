@@ -1,0 +1,175 @@
+/* Attendance.css */
+
+.attendance-container {
+    background-color: #fef3c7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .attendance-header {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .attendance-header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .attendance-open-button {
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+  }
+  
+  .attendance-open-button:hover {
+    background-color: #2563eb;
+  }
+  
+  .attendance-calendar-box {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .attendance-legend {
+    margin-right: 1.5rem;
+  }
+  
+  .attendance-legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .attendance-legend-color {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    border-radius: 0.25rem;
+  }
+  
+  .attendance-present {
+    background-color: #bbf7d0;
+  }
+  
+  .attendance-absent {
+    background-color: #fecaca;
+  }
+  
+  .attendance-holiday {
+    background-color: #e5e7eb;
+  }
+  
+  .attendance-calendar h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .attendance-calendar-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  
+  .attendance-nav-button {
+    color: #6b7280;
+    background: none;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  .attendance-nav-button:hover {
+    color: #374151;
+  }
+  
+  .attendance-calendar-iframe {
+    border: none;
+    width: 800px;
+    height: 600px;
+  }
+  
+  .attendance-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
+  }
+  
+  .attendance-modal {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    width: 33%;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .attendance-close-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: none;
+    border: none;
+    color: #6b7280;
+    cursor: pointer;
+  }
+  
+  .attendance-close-button:hover {
+    color: #ef4444;
+  }
+  
+  .attendance-subject-list h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .attendance-subject-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .attendance-present-button {
+    background-color: #bbf7d0;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.375rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .attendance-present-button:hover {
+    background-color: #86efac;
+  }
+  
+  .attendance-absent-button {
+    background-color: #fecaca;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+  }
+  
+  .attendance-absent-button:hover {
+    background-color: #fca5a5;
+  }
+  

@@ -5,6 +5,7 @@ import HomePage from './components/homepage'
 import NavBar from './components/NavBar'
 import MarksTracker from './components/marksTracker'
 import "./marksTracker.css"
+import Attendance from './components/Attendance'
 function renderWebsite(mode){
   switch (mode) {
     case "home":
@@ -15,6 +16,9 @@ function renderWebsite(mode){
       return <TimeTablePage />
       break;
 
+    case "attendance":
+      return <Attendance />
+    
     case "markstracker":
       return <MarksTracker />
       break;
